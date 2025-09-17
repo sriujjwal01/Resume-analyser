@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "dev": "react-router dev",
+    "dev": "npx @react-router/dev dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
@@ -14,8 +14,8 @@
     "clsx": "^2.1.1",
     "isbot": "^5.1.27",
     "pdfjs-dist": "^5.3.93",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-dropzone": "^14.3.8",
     "react-router": "^7.5.3",
     "tailwind-merge": "^3.3.1",
